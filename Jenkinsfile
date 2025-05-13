@@ -10,6 +10,7 @@ pipeline {
                 sh '''
                 pwd
                 whoami
+                sh
                 date
                 touch file1
                 echo "${BUILD_ID}"
