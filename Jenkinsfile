@@ -11,6 +11,7 @@ pipeline {
                 pwd
                 whoami
                 date
+                sh
                 touch file1
                 echo "${BUILD_ID}"
                 echo "${JOB_NAME}"
